@@ -52,5 +52,9 @@ function userPrompts(){
     passwordInput = passwordInput.concat(specialCharacters)
   }
   console.log(passwordInput);
+  
+  for (var i = 0; i < passwordLength.length; index++) {
+    passwordInput[ Math.floor( Math.random() * passwordLength)];
+  }
 
 }
